@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  background-color: rgba(0,140,105,0.3);
+}
+
+.topo {
+  width: 100%;
+  height: 190px;
+  background-image: url(imagem/fundo-topo.png);
+  border-bottom: 4px solid #fff;
+
+}.logotipo {
+  width: 230px;
+  height: 110px;
+  position: relative;
+  left: 15%;
+  top: 30px;
+}
+.redes-sociais {
+  position: relative;
+  right: 19%;
+  width: 45px;
+  height: 105px;
+  float: right;
+  background: url('imagem/fundo-redes-sociais.png') no-repeat;
+}.corrige-img   {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  top: 40px;
+  left: 10px;
+  opacity: 0.2;
+
+}.redes-sociais img:hover {
+  opacity: 1;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu {
+  float: right;
+  clear: both;
+  position: relative;
+  top: 30px;
+  right: 25%;
+
+}
+.menu ul {
+
+}
+.menu ul li {
+  display: inline-block;
+  padding: 5px;
+}
+.menu ul  a li{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Electrolize" ;
+  font-size: 16px;
+  font-style: italic;
+}
+.menu ul  a li:hover {
+  text-shadow: 2px 2px 2px #333;
+}
+
+.unhas-destaque {
+
+  width: 100%;
+  height: 332px;
+  background-image: url(imagem/fundo-unhas.png);
+  border-bottom: : 4px solid #fff;
+
+}
+.unhas-destaque > h1 {
+
+  position: relative;
+  left: 15%;
+  margin: 0;
+  font-family: "Pacifico","arial", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  clear: both;
+}
+
+.blocosDeUnhas {
+  margin-right: 30px;
+  position: relative;
+  display: inline-block;
+  left: 18%;
+  top:15px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: #fff;
+
+}
+
+.blocosDeUnhas img {
+  cursor: pointer;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  width: 229px;
+  height: 229px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50% ;
+  padding: 5px;
+  transition: width 2s, height 4s, transform 8s;
+
+}
+
+.blocosDeUnhas img:hover {
+  filter: grayscale(0%);
+  transform:: scale(1.8);
+  height: 250px;
+  width: 250px;
+  transform:rotate(360deg);
+  ease-in-out;
+  -webkit-transition:-webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  border-radius: 0%;
+  border: 5px dashed #fff;
+  box-shadow: 23px 23px 200px #fff;
+  position: relative;
+  left: -20px;
+  top: -10px;
+
+}
+
+.quem-sou-eu {
+
+  position: relative;
+  width: 270px;
+  height: 330px;
+  background-color: #fff;
+  border: 5px solid #7FC5BC;
+  left: 17%;
+  top: 20px;
+  text-align: justify;
+}
+.quem-sou-eu h1 {
+  color: #FAAFAF;
+  font-family: "Californian FB";
+  font-size: 22px;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.quem-sou-eu p {
+  line-height: 18px;
+  margin: 25px auto;
+  width: 260px;
+  color: #535353;
+  font-size: 14px;
+}.quem-sou-eu p::first-letter{
+  font-size: 25px;
+}.quem-sou-eu cite {
+  float: right;
+  margin-top: -8px;
+  margin-right: 10px;
+}
+.quem-sou-eu:hover {
+
+  transition: transform .3s ease-in-out;
+  transform: scale(1.02);
+  box-shadow: 0px 0px 20px  #333;
+
+
+}
+
+@media (max-width: 900px)   {
+  .blocosDeUnhas {
+    position: relative;
+    left:30px;
+  }
+  .unhas-destaque {
+    min-width:1000px;
+  }
+    .logotipo {
+      left: 0px;
+    }
+
+    .quem-sou-eu {
+      left: 0;
+    }
+}
