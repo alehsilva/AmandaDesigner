@@ -5,27 +5,41 @@ body {
   background-color: rgba(0,140,105,0.3);
 }
 
-.topo {
-  width: 100%;
-  height: 190px;
+.centraliza-topo {
   background-image: url(imagem/fundo-topo.png);
+  width: 100%;
   border-bottom: 4px solid #fff;
+  height: 190px;
+}
+
+.topo {
+  margin: 0 auto;
+  width: 60%;
+  height: 190px;
 
 }.logotipo {
+
   width: 230px;
   height: 110px;
   position: relative;
-  left: 15%;
   top: 30px;
+  left: -1%;
+
 }
+
 .redes-sociais {
+
   position: relative;
-  right: 19%;
   width: 45px;
   height: 105px;
   float: right;
   background: url('imagem/fundo-redes-sociais.png') no-repeat;
-}.corrige-img   {
+}.redes-sociais:hover {
+  transform: scaleX(1.1);
+
+}
+
+.corrige-img   {
   width: 26px;
   height: 26px;
   position: relative;
@@ -44,7 +58,7 @@ body {
   clear: both;
   position: relative;
   top: 30px;
-  right: 25%;
+
 
 }
 .menu ul {
@@ -66,6 +80,7 @@ body {
 }
 
 .unhas-destaque {
+  text-align: center;
 
   width: 100%;
   height: 332px;
@@ -74,9 +89,9 @@ body {
 
 }
 .unhas-destaque > h1 {
-
+  width: 200px;
   position: relative;
-  left: 15%;
+  left: 20%;
   margin: 0;
   font-family: "Pacifico","arial", sans-serif;
   font-size: 25px;
@@ -88,12 +103,12 @@ body {
   margin-right: 30px;
   position: relative;
   display: inline-block;
-  left: 18%;
   top:15px;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background: #fff;
+  box-shadow: 1px 1px 20px #666;
 
 }
 
@@ -131,60 +146,127 @@ body {
 
 }
 
+.fundo-meioDoSite {
+  width: 100%;
+  margin: 0;
+  background-image: url('imagem/fundo-parceiros.png');
+}
+
+.centraliza {
+  margin: 0 auto;
+  width: 60%;
+  height: 400px;
+
+}
+
 .quem-sou-eu {
 
+  box-shadow: 0px 0px 20px  #666;
+  display: inline-block;
   position: relative;
-  width: 270px;
+  width: 35%;
   height: 330px;
   background-color: #fff;
   border: 5px solid #7FC5BC;
-  left: 17%;
+  left: -3%;
   top: 20px;
   text-align: justify;
+  float: left;
+  background-image: url('imagem/fundo-quemsoueu.png');
 }
 .quem-sou-eu h1 {
   color: #FAAFAF;
   font-family: "Californian FB";
   font-size: 22px;
-  margin: 0;
-  margin-left: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .quem-sou-eu p {
+  position: relative;
+  left: 4%;
+  font-family: "Electrolize";
   line-height: 18px;
-  margin: 25px auto;
-  width: 260px;
+  width: 90%;
   color: #535353;
   font-size: 14px;
-}.quem-sou-eu p::first-letter{
-  font-size: 25px;
-}.quem-sou-eu cite {
+}
+.quem-sou-eu p::first-letter {
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+.quem-sou-eu cite {
   float: right;
+  color: #cba;
   margin-top: -8px;
   margin-right: 10px;
 }
 .quem-sou-eu:hover {
-
   transition: transform .3s ease-in-out;
   transform: scale(1.02);
   box-shadow: 0px 0px 20px  #333;
+}
+
+.parceiros {
+  position: relative;
+  top:20px;
+  float: right;
+  width: 60%;
+  height: 330px;
 
 
 }
 
-@media (max-width: 900px)   {
-  .blocosDeUnhas {
-    position: relative;
-    left:30px;
-  }
-  .unhas-destaque {
-    min-width:1000px;
-  }
-    .logotipo {
-      left: 0px;
-    }
 
-    .quem-sou-eu {
-      left: 0;
-    }
+.parceiros > h1 {
+  color: #fff;
+  margin: 0 10px;
+  font-family: "Pacifico","arial", sans-serif;
+
+}
+
+form[name="parceiro"] input{
+  width: 80%;
+  height: 20px;
+  background: #eee;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+input[name="email"] {
+  position: relative;
+  left: 30px;
+}
+
+input:focus, textarea:focus {
+  background: #fc5c71;
+  opacity: 0.8;
+}
+
+form[name="parceiro"] textarea {
+  width: 98%;
+}
+
+form[name="parceiro"] fieldset {
+  border: 3px dashed #fff;
+  box-shadow: 1px 1px 30px #fff;
+  height: 260px;
+  font-family: "Electrolize";
+  color: #fff;
+  text-shadow: 1px 1px 3px #333;
+
+}
+
+form[name="parceiro"] label {
+  font-family: "Pacifico";
+  font-size: 0.7em;
+  font-weight: normal;
+  color: #333;
+  text-shadow: 1px 1px 3px #eee;
+}
+@media (max-width:900px){
+  .unhas-destaque {
+    max-width: 900px;
+  }
 }
