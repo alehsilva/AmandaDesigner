@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+}
+
+.centraliza-topo {
+  background-image: url(imagem/fundo-topo.png);
+  width: 100%;
+  border-bottom: 4px solid #fff;
+  height: 190px;
+}
+
+.topo {
+  margin: 0 auto;
+  width: 60%;
+  height: 190px;
+
+}.logotipo {
+
+  width: 230px;
+  height: 110px;
+  position: relative;
+  top: 30px;
+  left: -1%;
+
+}
+
+.redes-sociais {
+  visibility: hidden;
+}
+
+.menu {
+
+}
+
+.unhas-destaque {
+  visibility: hidden;
+}
+
+.quem-sou-eu {
+  position: relative;
+  top: -1550px;
+  width: 100%;
+
+
+}.quem-sou-eu p {
+  width: 99%;
+  text-align: justify;
+}
+
+.parceiros {
+
+  position: relative;
+  top: -1550px;
+}

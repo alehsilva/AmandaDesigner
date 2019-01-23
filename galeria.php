@@ -57,16 +57,11 @@
           </div>
         </div>
       </header>
-        <div class="unhas-destaque">
-
-          <a href="#">Ver mais</a>
-          <h1>Meus Trabalhos</h1>
-                <div class="blocosDeUnhas"><img src="imagem/unha1.png" alt="Unha numero um"></div>
-                <div class="blocosDeUnhas"><img src="imagem/unha2.png" alt="Unha numero dois"></div>
-                <div class="blocosDeUnhas"><img src="imagem/unha3.png" alt="Unha numero três"></div>
-
+      <div class="fundo-conteudo">
+        <div class="galeria-conteudo">
+          <iframe frameborder="0" allowtransparency="yes" src="recebe-galeria.php" width="100%" height="800px" name="galeria"></iframe>
         </div>
-
+      </div>
         <div class="fundo-meioDoSite">
             <div class="centraliza">
               <blockquote cite="Amanda Caroline">
@@ -106,7 +101,11 @@
             <div class="anuncie">
              <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
                 <div class="anuncie-rolagem">
-                <img src="" alt="">
+                  <a target=" _blank" href="https://kellyesmaltes.com.br"><img src="imagem/kellyesmaltes.jpeg" alt="Kelly Esmaltes"></a>
+                  <a target=" _blank" href="https://kellyesmaltes.com.br"><img src="imagem/kellyesmaltes.jpeg" alt="Kelly Esmaltes"></a>
+                  <a target=" _blank" href="https://kellyesmaltes.com.br"><img src="imagem/kellyesmaltes.jpeg" alt="Kelly Esmaltes"></a>
+                  <a target=" _blank" href="https://kellyesmaltes.com.br"><img src="imagem/kellyesmaltes.jpeg" alt="Kelly Esmaltes"></a>
+                  <img src="" alt="">
               </div>
           </marquee>
           </div>

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  background-color: rgba(0,140,105,0.3);
+}
+
+.centraliza-topo {
+  background-image: url(imagem/fundo-topo.png);
+  width: 100%;
+  border-bottom: 4px solid #fff;
+  height: 190px;
+}
+
+.topo {
+  margin: 0 auto;
+  width: 60%;
+  height: 190px;
+
+}.logotipo {
+
+  width: 230px;
+  height: 110px;
+  position: relative;
+  top: 30px;
+  left: -1%;
+
+}
+
+.redes-sociais {
+
+  position: relative;
+  width: 45px;
+  height: 105px;
+  float: right;
+  background: url('imagem/fundo-redes-sociais.png') no-repeat;
+}.redes-sociais:hover {
+  transform: scaleX(1.1);
+
+}
+
+.corrige-img   {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  top: 40px;
+  left: 10px;
+  opacity: 0.2;
+
+}.redes-sociais img:hover {
+  opacity: 1;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu {
+  float: right;
+  clear: both;
+  position: relative;
+  top: 30px;
+
+
+}
+.menu ul {
+
+}
+.menu ul li {
+  display: inline-block;
+  padding: 5px;
+}
+.menu ul  a li{
+  text-shadow: 1px 1px 5px #777;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Electrolize" ;
+  font-size: 16px;
+  font-style: italic;
+}
+.menu ul  a li:hover {
+  text-shadow: 2px 2px 2px #333;
+}
+
+.fundo-meioDoSite {
+  width: 100%;
+  margin: 0;
+  background-image: url('imagem/fundo-parceiros.png');
+}
+
+.corpo-agenda {
+  margin: 0 auto;
+  width: 70%;
+  height: 500px;
+
+}
+.iframe {
+background-color: transparent;
+}
